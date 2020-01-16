@@ -8,3 +8,6 @@ transactionProcessor.start()
 
 console.log(`Starting bank transaction processor`)
 console.log(`Connecting to Sawtooth validator at tcp://localhost:4004`)
+
+
+

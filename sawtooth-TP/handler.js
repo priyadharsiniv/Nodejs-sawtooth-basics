@@ -6,7 +6,7 @@ var { TP_FAMILY, TP_NAMESPACE } = require("./constants");
 
 class SimpleStoreHandler extends TransactionHandler {
  constructor() {
-   super(TP_FAMILY, ['1.0'], [TP_NAMESPACE])
+   super(TP_FAMILY, ['1.0'], [TP_NAMESPACE]) 
  }
 
  apply(transactionProcessRequest, context) {

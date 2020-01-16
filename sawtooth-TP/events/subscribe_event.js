@@ -13,7 +13,7 @@ class SubscribeToEvents {
         //eventSubscription = protobuf().
         //eventSubscription = exportableMessages.EventSubscription.newBuilder.setEventType.build();
         // protobuf.Root.prototype.deferred.
-        let clientEventsSubscribeRequest = new protobuf.ClientEventsSubscribeRequest();
+        let clientEventsSubscribeRequest = new protobuf.ClientEventsSubscribeRequest;
         clientEventsSubscribeRequest = clientEventsSubscribeRequest.newBuilder().addSubscriptions(eventSubscription).build();
 
         let ctx = zmq.zContext();

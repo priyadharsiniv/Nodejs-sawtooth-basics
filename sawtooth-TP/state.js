@@ -12,6 +12,10 @@ class SimpelStoreState {
    var address = makeAddress(value);
    var stateEntriesSend = {}
    stateEntriesSend[address] = Buffer.from("Hello! " + value);
+   this.context.addEvent(
+    'xo/create',
+    [['name', 'siva'], ['creator', 'signer_public_key']],
+    null)
    return  this.context.setState(stateEntriesSend, this.timeout).then(function(result) {
      console.log("Success", result)
    }).catch(function(error) {

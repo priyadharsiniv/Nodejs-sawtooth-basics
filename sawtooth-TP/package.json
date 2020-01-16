@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "cbor": "^5.0.1",
-    "sawtooth-sdk": "^1.0.5"
+    "fs": "0.0.1-security",
+    "sawtooth-sdk": "^1.0.5",
+    "zeromq": "^5.2.0"
   }
 }

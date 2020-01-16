@@ -56,6 +56,11 @@ function  sendRequest(payload) {
  }, (err, response) => {
    if (err) return  console.log(err)
    console.log(response.body)
+
+  //  context.addEvent(
+  //   'xo/create',
+  //   [['name', 'siva'], ['creator', 'signer_public_key']],
+  //   null)
  })
 }
 
