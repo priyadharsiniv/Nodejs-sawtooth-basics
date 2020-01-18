@@ -4,7 +4,7 @@ Hyperledger Sawtooth basics concept. Need to install docker based on your enviro
 ## sawtooth-TP
 There will be validator file in sawtooth-TP folder. Need to run the validator
 ```bash
-sudo docker-compose sawtooth-default.yaml up
+sudo docker-compose -f sawtooth-default.yaml up
 ```
 Here Transaction Processor is created with handler.js and state.js. Data from client will be get and set and update in GLobal state.
 After creating the TP, run the file
